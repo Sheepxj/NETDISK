@@ -1,0 +1,14 @@
+server:
+  port: 8300
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/netdisk
+    username: root
+    password: 20030706aaaaaa
+  servlet:
+    multipart:
+      max-file-size: 200MB
+      max-request-size: 200MB
+
+logging.level.org.springframework.boot.autoconfigure: error
